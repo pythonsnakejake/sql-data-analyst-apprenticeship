@@ -5,6 +5,7 @@ In Lesson 2 I learnt how to retrieve data from a database using the `SELECT` sta
 ```sql
 SELECT column_name
 FROM table_name;
+```
 
 `SELECT` tells the database which columns I want to return, and `FROM` tells it which table to retrieve them from.
 
