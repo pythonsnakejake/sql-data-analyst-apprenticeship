@@ -1,0 +1,20 @@
+# Lesson 2: SELECT - Retrieving Data
+
+In Lesson 2 I learnt how to retrieve data from a database using the `SELECT` statement. The basic structure is:
+
+```sql
+SELECT column_name
+FROM table_name;
+```
+
+`SELECT` tells the database which columns I want to return, and `FROM` tells it which table to retrieve them from.
+
+Using `SELECT *` returns **all columns** from a table, but in professional work it is usually better to specify the exact columns needed for clarity and performance. I also learnt that the order of columns in the result depends on the order I write them in the `SELECT` clause.
+
+A `SELECT` query does not change the underlying table—it only changes the temporary result set returned by the query. The shape of a query result depends on:
+
+* The number of columns selected
+* The order of those columns
+* The number of rows returned
+
+I also noticed a `NULL` value in the city column for one customer. `NULL` means a value is missing or unknown, which is different from zero or an empty string.
